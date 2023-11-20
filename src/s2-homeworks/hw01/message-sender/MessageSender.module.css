@@ -1,0 +1,41 @@
+.sendForm {
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
+
+}
+
+.textarea {
+    border-color: #F5F7FB;
+    border-radius: 20px;
+    min-height: 40px;
+    min-width: 85%;
+    background-color: #F5F7FB;
+    padding-left: 30px;
+    padding-top: 10px;
+    size: 30px;
+    
+}
+
+.button {
+    width: 120px;
+    height: 40px;
+    border-color: #0066CC;
+    background-color: #0066CC;
+    border-radius: 20px;
+    color: white;
+    size: 16px;
+   
+
+}
+
+.button:hover {
+    border-color: #033e79;
+    background-color: #033e79;
+}
+
+.button:active {
+    border-color: #2d88e3;
+    background-color: #2d88e3;
+}
+
