@@ -1,35 +1,36 @@
-.greetingForm {
-}
+.greetingForm {}
 
-.inputAndButtonContainer {
-}
+.inputAndButtonContainer {}
 
 .error {
+    color: red;
 }
 
 .input {
+    min-height: 20px;
 }
 
-.input:focus {
-}
+.input:focus {}
 
 .errorInput {
+    border: 2px solid red;
+    border-radius: 2px;
 }
 
 .button {
+    min-height: 20px;
+    color: white;
+    background-color: #2f07f6;
 }
 
-.button:focus {
-}
+.button:focus {}
 
-.button:active {
-}
+.button:active {}
 
 .button:disabled {
+    background-color: #8b75fa;
 }
 
-.text {
-}
+.text {}
 
-.greeting {
-}
+.greeting {}
