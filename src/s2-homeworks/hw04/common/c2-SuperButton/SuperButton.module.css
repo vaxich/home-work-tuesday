@@ -1,25 +1,37 @@
 .button {
+    width: 150px;
+    height: 30px;
+    color: white;
+    display: block;
+   
 }
 
 .disabled {
+    background-color: aqua;
 }
 
 .secondary {
+    background-color: black;
 }
 
 .default {
+    background-color: rgb(79, 79, 107);
 }
 
 .red {
+    background-color: red;
 }
 
 .default:hover {
+    background-color: rgb(90, 90, 239);
 }
 
 .red:hover {
+    background-color: rgb(242, 145, 145);
 }
 
 .secondary:hover {
+    background-color: rgb(121, 117, 117);
 }
 
 
@@ -29,7 +41,8 @@
 .secondary:active {
 }
 
-.red:active {
+.redActive {
+   
 }
 
 .button:disabled {
